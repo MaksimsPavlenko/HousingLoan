@@ -19,7 +19,7 @@ public class LoanCalculationResponse {
         for(int i = 0; i < responses.size(); i++){
             Response r = responses.get(i);
             System.out.println("|" +
-                    "Period= " + r.period +
+                    "Month = " + r.period +
                     " | BeginningBalance = " + df.format(r.beginningBalance) +
                     " | Payment = " + df.format(r.payment) +
                     " { LoanRepayment = " + df.format(r.loanRepayment) +
